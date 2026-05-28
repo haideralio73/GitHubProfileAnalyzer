@@ -86,16 +86,3 @@ GitHub Profile Analyzer/
 python test_app.py
 ```
 
-All 49 tests run offline (no API calls). They mock network responses to verify every code path — API error handling, pagination, table rendering, chart generation, and CLI argument parsing.
-
-## GitHub Upload
-
-Upload these **3 files** via drag-and-drop:
-
-| File | Purpose |
-|------|---------|
-| `app.py` | Main analyzer script |
-| `requirements.txt` | Dependency list |
-| `README.md` | Documentation |
-
-Optional but recommended: `test_app.py` for test suite.
